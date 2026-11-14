@@ -16,3 +16,10 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# 运行期数据（仿真状态、SQLite、WAL）
+/data/
+/data-*/
+*.db
+*.db-wal
+*.db-shm
